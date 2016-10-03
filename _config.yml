@@ -1,0 +1,49 @@
+name: Buildize
+description: Engineering Notes
+meta_description: "Software Engineering, Ruby, Node.js, React.js"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+paginate: 20
+baseurl: /
+domain_name: 'http://blog.buildize.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://blog.buildize.com'
+author:         'Buildize'
+authorTwitter:  'buildize'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+
+authors:
+  ali:
+    name: Ali Davut
+    twitter: alidavut
+    description: Full Stack Engineer
