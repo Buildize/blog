@@ -6,7 +6,7 @@ author: ali
 pid: 2
 ---
 
-![Coorsy Home Page](/assets/images/coorsy-home.png)
+![Coorsy Home Page](/assets/images/coorsy-home.jpg)
 
 We are very excited to announce that we just started a new project, Coorsy.
 We aim to enable users to explore, search and reach online courses easily.
